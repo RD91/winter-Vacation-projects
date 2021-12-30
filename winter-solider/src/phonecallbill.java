@@ -27,7 +27,7 @@ public class phonecallbill {
                     counter = i;
                 }
             }
-            sum = (counter * 2.0) + 12.5;
+            sum = (counter * 2.0) + (5*1)+(5*1.5);
             System.out.println("The amount for "+num+" minutes call = " + sum +" Rs");
         }
         else if (num > 20 && num <=30){
@@ -37,7 +37,7 @@ public class phonecallbill {
                     counter = i;
                 }
             }
-            sum = (counter * 3.0) + 32.5;
+            sum = (counter * 3.0) + (5*1)+(5*1.5)+(10*2.0);
             System.out.println("The amount for "+num+" minutes call = " + sum +" Rs");
         }
         else if (num > 30){
@@ -47,9 +47,8 @@ public class phonecallbill {
                     counter = i;
                 }
             }
-            sum = (counter * 4.0) + 62.5;
+            sum = (counter * 4.0) + (5*1)+(5*1.5)+(10*2.0)+(10*3.0);
             System.out.println("The amount for "+num+" minutes call = " + sum +" Rs");
         }
-
     }
 }
